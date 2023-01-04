@@ -16,6 +16,12 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
+#    redis에 저장시
+  session:
+    storage-type: redis
+  redis:
+    host: localhost
+    port: 6379
 logging:
   level:
     root: info
