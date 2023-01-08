@@ -2,10 +2,10 @@ package com.example.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
+//import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 //redis저장시
-@EnableRedisHttpSession
+//@EnableRedisHttpSession
 @SpringBootApplication
 public class BoardApplication {
 

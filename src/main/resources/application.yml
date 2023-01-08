@@ -17,11 +17,11 @@ spring:
     hibernate:
       ddl-auto: update
 #    redis에 저장할때는 아래 내용 추가
-  session:
-    storage-type: redis
-  redis:
-    host: localhost
-    port: 6379
+#  session:
+#    storage-type: redis
+#  redis:
+#    host: localhost
+#    port: 6379
 logging:
   level:
     root: info
